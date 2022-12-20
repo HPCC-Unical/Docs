@@ -46,8 +46,8 @@ conda activate <your_env_name>
 ```
 
 
-### Local deploment
-Once you have mkdocs installed you can visualize  oyur changes. 
+### Local deployment
+Once you have mkdocs installed you can visualize the documentation on your machine live. 
 To do so go to the folder containing the `mkdocs.yml` file and run
 ```
 mkdocs serve
