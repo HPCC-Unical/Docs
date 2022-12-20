@@ -6,14 +6,10 @@ In this repository you will find the documentation of the HPC resources availabl
 This documentation is build using [mkdocs](https://www.mkdocs.org/) and the [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) theme.
 When working locally on your machine you might want to check the changes in real time. To do so you will need to install mkdocs and the mkdocs-material theme. To do so, after cloning the repository, run the command:
 
-```
-python -m pip install -r requirements.txt
-```
+``` python -m pip install -r requirements.txt ```
 or simply
 
-```
-pip install -r requirements.txt
-```
+``` pip install -r requirements.txt ```
 
 We suggest that before doing so you create and activate a new python (or conda) environment. This is not a strong requirement, but it helps in keeping your system in good shape.
 You can follow the steps below to create and activate a python/conda environment.
