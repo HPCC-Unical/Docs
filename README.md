@@ -16,10 +16,10 @@ or, if you have pip installed:
 pip install -r requirements.txt 
 ```
 
-We suggest that before doing so you create and activate a new python (or conda) environment. This is not a strong requirement, but it helps in keeping your system in good shape.
+We suggest that before doing so you create and activate a new python (or conda) environment. This is not mandatory, but it helps in keeping your system in good shape.
 You can follow the steps below to create and activate a python/conda environment.
  
-Python
+### Python
 
 Create the environment
 ```	
@@ -35,7 +35,7 @@ python -m pip install -r requirements.txt
 ```
 
 
-Conda
+### Conda
 Create the environment and install mkdocs:
 ``` 
 conda create --name <your_env_name> python>=3.10 pip>=21.0 -r requirements.txt
@@ -46,11 +46,14 @@ conda activate <your_env_name>
 ```
 
 
-
-To visualize the changes you make in real time you can use `mkdocs`. To do so go to the folder containing the `mkdocs.yml` file and run
+### Local deploment
+Once you have mkdocs installed you can visualize  oyur changes. 
+To do so go to the folder containing the `mkdocs.yml` file and run
 ```
 mkdocs serve
 ```
 
-You can now access your website at [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The local web server will automatically reload after any edit of a file in the documentation.
+You can now access your website at [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The local web server will automatically reload after any change in a file of the documentation.
+
+Enjoy and have fun!
  
