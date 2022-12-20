@@ -19,15 +19,14 @@ pip install -r requirements.txt
 We suggest that before doing so you create and activate a new python (or conda) environment. This is not a strong requirement, but it helps in keeping your system in good shape.
 You can follow the steps below to create and activate a python/conda environment.
  
-<hr />
-=== "Python"
+Python
 
-	```
+	`
 	python -m venv path/to/your/python/envs/<your_env_name>
 	. path/to/your/python/env/<your_env_name>/bin/activate
 	python -m pip install -r requirements.txt 
 
-	```
+	`
 
 === "Conda"
 
