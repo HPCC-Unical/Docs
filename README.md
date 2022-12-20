@@ -21,20 +21,18 @@ You can follow the steps below to create and activate a python/conda environment
  
 Python
 
-	`
-	python -m venv path/to/your/python/envs/<your_env_name>
-	. path/to/your/python/env/<your_env_name>/bin/activate
-	python -m pip install -r requirements.txt 
+```	
+python -m venv path/to/your/python/envs/<your_env_name>
+. path/to/your/python/env/<your_env_name>/bin/activate
+python -m pip install -r requirements.txt 
+```
 
-	`
 
 === "Conda"
-
-	``` 
-	conda create --name <your_env_name> python>=3.10 pip>=21.0 -r requirements.txt
-	conda activate <your_env_name>	
-
-	```
+``` 
+conda create --name <your_env_name> python>=3.10 pip>=21.0 -r requirements.txt
+conda activate <your_env_name>	
+```
 
 
 
