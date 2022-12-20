@@ -10,7 +10,7 @@ When working locally on your machine you might want to check the changes in real
 python -m pip install -r requirements.txt 
 ```
 
-or simply
+or, if you have pip installed:
 
 ``` 
 pip install -r requirements.txt 
@@ -21,16 +21,27 @@ You can follow the steps below to create and activate a python/conda environment
  
 Python
 
+Create the environment
 ```	
 python -m venv path/to/your/python/envs/<your_env_name>
+```
+Activate the environment
+```
 . path/to/your/python/env/<your_env_name>/bin/activate
+```
+Install mkdocs
+```
 python -m pip install -r requirements.txt 
 ```
 
 
-=== "Conda"
+Conda
+Create the environment and install mkdocs:
 ``` 
 conda create --name <your_env_name> python>=3.10 pip>=21.0 -r requirements.txt
+```
+Activate the environment
+```
 conda activate <your_env_name>	
 ```
 
