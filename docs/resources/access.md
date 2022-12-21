@@ -50,4 +50,21 @@ ssh -i $HOME/.ssh/id_rsa_<hostname> <username>@<resource>.hpcc.unical.it
 
 Please notice that you can drop the `-i $HOME/.ssh/id_rsa_<hostname>` if your are using the default name for the key file name (id_rsa).
 
+##SSH config file
+To make the access even easier you can setup the configuration of the ssh access to the remote machine using the `config` file of `ssh`.
+To do so you can append the following to the file `$HOME/.ssh/config`:
 
+```
+Host <resource>
+Hostname <resource>.hpcc.unical.it
+User <username>
+IdentityFile %d/.ssh/id_rsa_<hostname>
+IdentitiesOnly yes
+ForwardAgent yes
+```
+
+Once you have saved the file it will be enough to run the command:
+```
+ssh <resource>
+```
+to access the remote machine.
