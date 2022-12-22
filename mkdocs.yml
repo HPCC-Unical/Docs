@@ -2,9 +2,10 @@ site_name: HPCC-Unical Documentation
 repo_url: https://github.com/HPCC-Unical/Docs.git
 edit_uri: ""
 site_url: 
-site_dir: public
+site_dir: docs
+docs_dir: src
 site_author: "HPCC-Unical"
-remote_branch: production
+remote_branch: main
 site_description: >-
   Documentation of the HCP resources at Unical
 copyright: Copyright &copy; 2022 &#8282; HPCC-Unical
