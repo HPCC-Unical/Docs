@@ -35,7 +35,7 @@ theme:
   
   palette:
         scheme: black
-        primary: light blue
+        primary: blue
         accent: light blue
 
       #font: false
