@@ -7,7 +7,7 @@
    viewBox="0 0 50 50"
    version="1.1"
    id="svg5"
-   sodipodi:docname="logo-hpcc.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/nicolalogullo/Desktop/HPCC/logo-hpcc.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -30,8 +30,8 @@
      fit-margin-top="2"
      lock-margins="true"
      inkscape:zoom="1.4004209"
-     inkscape:cx="61.767146"
-     inkscape:cy="41.059085"
+     inkscape:cx="61.767144"
+     inkscape:cy="41.059084"
      inkscape:window-width="1920"
      inkscape:window-height="958"
      inkscape:window-x="0"
@@ -48,6 +48,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-70.973125,-80.60398)">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0;stroke-linecap:round;-inkscape-stroke:none;stop-color:#000000;fill-opacity:0.99923491"
+       id="rect937"
+       width="50.343266"
+       height="50.076729"
+       x="71.130295"
+       y="80.440041" />
     <g
        id="g14456"
        transform="matrix(0.21457149,0,0,0.25816264,88.438826,67.994409)">
