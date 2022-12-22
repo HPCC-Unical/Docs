@@ -2,7 +2,8 @@ site_name: HPCC-Unical Documentation
 repo_url: https://github.com/HPCC-Unical/Docs.git
 edit_uri: ""
 site_url: 
-site_dir: public
+site_dir: docs
+docs_dir: src
 site_author: "HPCC-Unical"
 remote_branch: production
 site_description: >-
